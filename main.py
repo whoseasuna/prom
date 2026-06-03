@@ -37,9 +37,9 @@ from aiohttp import web
 # Load environment
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-API_ID_STR = os.getenv("API_ID")
-API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("8937699034:AAGWz4WcTJoxfMEOrDzii5CRVFnj8B_RHU8")
+API_ID_STR = os.getenv("37411713")
+API_HASH = os.getenv("2c33f81e166db9eb9bcc1a31497b8ffd")
 
 if not BOT_TOKEN or not API_ID_STR or not API_HASH:
     raise ValueError("Missing BOT_TOKEN, API_ID or API_HASH in .env file. See .env.example")
